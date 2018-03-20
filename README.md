@@ -209,6 +209,9 @@ Main differences between standard Curation Markets and Frontpage's Hybrid Curati
   - [ ] Do audits on everything
   - [ ] Test on Test Network
   - [ ] Release on Main Network
+  
+## **Current Repository**
+https://github.com/Frontpage0x/frontpage0x
 
 ##
 **Ethereum Address**:
