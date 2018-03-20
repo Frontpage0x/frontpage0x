@@ -142,6 +142,7 @@ Forum Creation and Challenging
 </p> 
 
 Todo: Forum Contract Interaction with Users
+
 **Wireframes**
 <p align="center">
   <img width="480" height="270" src="https://imgur.com/E4xpSvJ.png">
