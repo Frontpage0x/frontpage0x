@@ -4,9 +4,11 @@
 </p>
 
 ## **Purpose**: 
+
 Frontpage0x is a decentralized forum platform that incentivises users to create valuable content and successful moderation of forums while providing penalties to malignant users, trolls, or bad moderators.
 
 ## **Description**: 
+
 Frontpage0x uses a group of smart contracts to allow creation and moderation of forums and foster creation of quality posts. It can essentially be explained as a Token Curated Registry (TCR) composed of individual Curation Markets with moderation, tipping, and reputation features.
 
 <p align="center">
@@ -16,9 +18,11 @@ Frontpage0x uses a group of smart contracts to allow creation and moderation of 
 </p>
 
 **Forum Creation**
+
 When a user creates a forum, they must signal they want to generate a forum and put down a deposit with a one-time fee in Frontpage Tokens. At time of creation, the forum creator sets the name and the forum is given a unique id. Names are only restricted from having numbers in them. If there are multiple forums that share the same name, the forum with the most users will have the specified name, such as "/cats". The other forums that share the same name shall have their rank behind their addressable name, such as “/cats2” and "/cats3".
 
 **Forum Challenge**
+
 Within six months of the forum being generated (the challenge period), if a user finds that the forum is unethical or malicious, they may challenge the forum. To challenge the forum, the user must put down a deposit in Frontpage Tokens. Once the challenge starts, it continues like normal TCRs. Voters vote on whether the forum is ethical or not. 
 - If the forum is deemed unethical, the challenger receives half of the deposit of the creator and voters share the other half. The forum is then removed from Frontpage Registry and current forum stakers lose their tokens. If there are previous challenges that have lost, they will receive half of their challenge deposit back from the creator. 
 - If the forum is voted as ethical, half of the challengers deposit is added to the creator's current deposit and the other half is split among the voters.
@@ -26,16 +30,20 @@ Within six months of the forum being generated (the challenge period), if a user
 An unlimited number of challenges may happen within the challenge period. Once this challenge period is completed, the challenger receives all of the deposit (with the challenge winnings.)
 
 **Forum Staking and Number of Users**
+
 Addressable names are calculated by the number of users. This is calculated by the number of tokens that exist for the forum. For a user to have the privilege to post a comment or a thread, they must own the particular token for that forum. The price of this token is determined by the number of tokens already in existence per the [Curation Market Whitepaper.](https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit) More tokens, higher the price; less tokens, lower the price. There is no limit of forum tokens that a user may have. They may also hold forum tokens from other forums. 
 
 **Unstaking from a Forum**
+
 Unless the user has recently posted a comment or a thread, the user may return their forum token. The amount returned from the token is determined by the number of tokens in existence. e.g. 1 Forum Token out of 100 Forum tokens is unstaked and pays out 1% of the deposited amount. 
 
 **Bonding**
+
 If a user would like to give over their curation rights (posting rights), they may bond their token to another curator. Bonding is what essentially gives other curators reputation. Choosing good curators will be beneficial if the user chooses not to curate themselves. Bonding is further discussed in the [Curation Market Whitepaper.](https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit) 
 
 **Liking (Upvoting)**
-    The forums are open to readers but if there is content that anyone finds as valuable or insightful, the content may be “liked” for a small fee. This fee will be split into four parts, one part for the content creator, one part for the bonders, one part for the moderator, and one part for the district funds. Content generators are expected to earn the vast majority of the fee. 
+
+The forums are open to readers but if there is content that anyone finds as valuable or insightful, the content may be “liked” for a small fee. This fee will be split into four parts, one part for the content creator, one part for the bonders, one part for the moderator, and one part for the district funds. Content generators are expected to earn the vast majority of the fee. 
 
 <p align="center">
   <img width="250" height="250" src="https://imgur.com/NiN2MpS.png">
@@ -45,18 +53,23 @@ If a user would like to give over their curation rights (posting rights), they m
 </p>
 
 **Ranking**
+
 Posts with more "likes" will rise to the top of the ranks in the forum and fall over time. Reputation (number of bonders) will determine the initial floor (or offset) that the content has. The more reputation, a user has, the more likely their content will be seen.
 
 **Moderation**
+
 After the creation of a forum, the forum creator becomes a Lead Moderator. Lead Moderators have privileges to add and remove other moderators. Additional moderators are allowed but they will require to pay a similar fee as the forum creator during creation. In the event that a moderator finds the content of a post against the policies of the forum, they may call for user to forfeit a single forum token. This forum token will be forcibly unstaked and the funds will fall under control of the district, not the moderators. Moderators are limited to a number of tokens that they may forfeit per hour. Moderators will find it in their best interest to keep users by the way of "likes". More user, more potential likes and more income; less users, less potential likes and less income.
 
 **Forum Takeovers**
+
 In the event that the moderators of “/cats” have acted in an unacceptable way. Users may decide to return their "/cats" tokens and buy "/cats2" tokens for the competing forum “/cats2” which has more acceptable moderators (note that users can always have deposits in multiple forums). Losing users possibly lowers the amount of quality content generated. Well-respected members that leave could bring a lot of users with them. If enough users switch, “/cats” may be bumped to “/cats2” and “/cats2” to “/cats”. This can be regarded as a forum takeover. A forum will need to have more users for over a week for the name change to occur.
 
 **Free Upvotes and Downvotes**
+
 By tracking the number of bonders that a curators has after posting, it is possible to have free upvotes and downvotes. If a curator loses bonders, it can appear that the last comment or post was deemed unfavorable. If the curator gains bonders, vice versa.
 
 **Frontpage Voting Topics**
+
 - Forum Creation
   - Forum Creation and Challenger Deposit Amounts
   - Forum Creation Fees
@@ -69,11 +82,13 @@ By tracking the number of bonders that a curators has after posting, it is possi
 - Use of Frontpage Funds
  
 **Frontpage Token**
+
 The Frontpage Token (FPT) will be used as a voting token similar to the Dank Token in Meme Factory. It will have the added utility of also being used as the native currency for Forum Creation. Forum Creation deposits and fees will need to be paid through the FPT. Note that the Frontpage token is not intended to be used for forum user deposits or "like" pricing.
 
 FPT will be generated by DNT (District Network Token) holders staking their DNT into the Frontpage District.  For every week, that a DNT holder has their DNT staked into the district, they will earn 1/100 FPT per DNT. This is to reward long-term stakers. 
 
 **Frontpage Initial Funding**
+
 If there is an initial sale of the Frontpage Token to fund development bounties:
 - Total Initial Supply: 360,000 FPT
 - Token Sale: 260,000 FPT (FPT not bought will be burned)
@@ -87,6 +102,7 @@ Remaining funds will be put into the districts control.
 *All Details are subject to change until Token Sale*
 
 **Contract Layouts**
+
 <p align="center">
   <img width="575" height="344" src="https://imgur.com/H048Kgu.png">
 </p>
@@ -132,6 +148,7 @@ Forum Token Sale
 Todo: Forum Contract Interaction with Users
 
 **Wireframes**
+
 <p align="center">
   <img width="480" height="270" src="https://imgur.com/E4xpSvJ.png">
 </p>
