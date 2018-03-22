@@ -141,6 +141,41 @@ Remaining funds will be put into the districts control.
 Forum Creation and Challenging
 </p> 
 
+<p align="center">
+  <img width="408" height="309" src="https://imgur.com/s7Sn8O6.png">
+</p>
+<p align="center">
+Post Creation
+</p> 
+
+<p align="center">
+  <img width="448" height="205" src="https://imgur.com/JpJlDNO.png">
+</p>
+<p align="center">
+Post Moderation
+</p> 
+
+<p align="center">
+  <img width="380" height="385" src="https://imgur.com/0mgW49P.png">
+</p>
+<p align="center">
+Comment Creation
+</p> 
+
+<p align="center">
+  <img width="138" height="118" src="https://imgur.com/EkMnm8L.png">
+</p>
+<p align="center">
+User Creation
+</p> 
+
+<p align="center">
+  <img width="260" height="144" src="https://imgur.com/t7TeVTL.png">
+</p>
+<p align="center">
+Forum Token Sale
+</p> 
+
 Todo: Forum Contract Interaction with Users
 
 **Wireframes**
