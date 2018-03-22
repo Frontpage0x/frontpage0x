@@ -46,7 +46,7 @@ If a user would like to give over their curation rights (posting rights), they m
 The forums are open to readers but if there is content that anyone finds as valuable or insightful, the content may be “liked” for a small fee. This fee will be split into four parts, one part for the content creator, one part for the bonders, one part for the moderator, and one part for the district funds. Content generators are expected to earn the vast majority of the fee. 
 
 <p align="center">
-  <img width="250" height="250" src="https://imgur.com/NiN2MpS.png">
+  <img width="291" height="288" src="https://imgur.com/4TIaeSe.png">
 </p>
 <p align="center">
 <b>Fig 7.</b> “Like” fees are split
