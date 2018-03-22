@@ -49,7 +49,7 @@ The forums are open to readers but if there is content that anyone finds as valu
   <img width="291" height="288" src="https://imgur.com/4TIaeSe.png">
 </p>
 <p align="center">
-<b>Fig 7.</b> “Like” fees are split
+<b>Fig 2.</b> “Like” fees are split
 </p>
 
 **Ranking**
@@ -107,42 +107,42 @@ Remaining funds will be put into the districts control.
   <img width="575" height="344" src="https://imgur.com/H048Kgu.png">
 </p>
 <p align="center">
-Forum Creation and Challenging
+<b>Fig 3. </b>Forum Creation and Challenging
 </p> 
 
 <p align="center">
   <img width="408" height="309" src="https://imgur.com/s7Sn8O6.png">
 </p>
 <p align="center">
-Post Creation
+<b>Fig 4. </b>Post Creation
 </p> 
 
 <p align="center">
   <img width="448" height="205" src="https://imgur.com/JpJlDNO.png">
 </p>
 <p align="center">
-Post Moderation
+<b>Fig 5. </b>Post Moderation
 </p> 
 
 <p align="center">
   <img width="380" height="385" src="https://imgur.com/0mgW49P.png">
 </p>
 <p align="center">
-Comment Creation
+<b>Fig 6. </b>Comment Creation
 </p> 
 
 <p align="center">
   <img width="138" height="118" src="https://imgur.com/EkMnm8L.png">
 </p>
 <p align="center">
-User Creation
+<b>Fig 7. </b>User Creation
 </p> 
 
 <p align="center">
   <img width="260" height="144" src="https://imgur.com/t7TeVTL.png">
 </p>
 <p align="center">
-Forum Token Sale
+<b>Fig 8. </b>Forum Token Sale
 </p> 
 
 Todo: Forum Contract Interaction with Users
@@ -153,7 +153,7 @@ Todo: Forum Contract Interaction with Users
   <img width="480" height="270" src="https://imgur.com/E4xpSvJ.png">
 </p>
 <p align="center">
-Forum Page
+<b>Fig 9. </b>Forum Page
 </p>
  
 More to come...
@@ -184,9 +184,9 @@ Main differences between standard Curation Markets and Frontpage's Hybrid Curati
 - [ ] Phase 1 (I have a dream...)
    - [x] Finish Major Characteristics of Frontpage
    - [x] Finish Frontpage Token Parameters
-   - [ ] Generate Frontpage Contract Layouts
+   - [x] Generate Frontpage Contract Layouts
    - [ ] Generate Initial Frontpage Wireframes
-   - [ ] Polish Explanatory Diagrams 
+   - [x] Polish Explanatory Diagrams 
    - [ ] Have Proposal Reviewed (Also go through consideration section and finalize)
 - [ ] Phase 2 (It's Raining Tokens, Hallelujah)
    - [ ] Generate Initial Frontpage Tokens (if needed)
