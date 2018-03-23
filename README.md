@@ -161,7 +161,7 @@ This can be alleviated by having liveliness tests.
 ## **Summary**
 Frontpage uses a multi-layered hybrid curation market to create strong incentives for insightful content creation while giving tools to users and moderators to battle malicious actors.
 
-Main differences between standard Curation Markets and Frontpage's Hybrid Curation Market**
+Main differences between standard Curation Markets and Frontpage's Hybrid Curation Market
 - Names of forums are determined by the number of existing tokens
 - Non-refundable deposits by moderators to keep them in check.
 - Tokens can be forfeited by moderators. (A single one for a specified time.) This seems like a strong way to disincentivize and punish malicious users.
