@@ -42,7 +42,7 @@ Unless the user has recently posted a comment or a thread, the user may return t
 The forums are open to readers but if there is content that anyone finds as valuable or insightful, the content can be upvoted for a small fee with Frontpage Mana. This fee will be split into three parts, one part for the content creator, one part for the moderator, and one part for the district funds. Content generators are expected to earn the vast majority of the fee. 
 
 <p align="center">
-  <img width="291" height="288" src="https://imgur.com/4TIaeSe.png">
+  <img width="291" height="288" src="https://imgur.com/h7lPIJy.png">
 </p>
 <p align="center">
 <b>Fig 2.</b> Upvote fees are split
