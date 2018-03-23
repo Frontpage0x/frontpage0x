@@ -37,36 +37,28 @@ Addressable names are calculated by the number of users. This is calculated by t
 
 Unless the user has recently posted a comment or a thread, the user may return their forum token. The amount returned from the token is determined by the number of tokens in existence. e.g. 1 Forum Token out of 100 Forum tokens is unstaked and pays out 1% of the deposited amount. 
 
-**Bonding**
+**Upvoting**
 
-If a user would like to give over their curation rights (posting rights), they may bond their token to another curator. Bonding is what essentially gives other curators reputation. Choosing good curators will be beneficial if the user chooses not to curate themselves. Bonding is further discussed in the [Curation Market Whitepaper.](https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit) 
-
-**Liking (Upvoting)**
-
-The forums are open to readers but if there is content that anyone finds as valuable or insightful, the content may be “liked” for a small fee. This fee will be split into four parts, one part for the content creator, one part for the bonders, one part for the moderator, and one part for the district funds. Content generators are expected to earn the vast majority of the fee. 
+The forums are open to readers but if there is content that anyone finds as valuable or insightful, the content can be upvoted for a small fee with Frontpage Mana. This fee will be split into three parts, one part for the content creator, one part for the moderator, and one part for the district funds. Content generators are expected to earn the vast majority of the fee. 
 
 <p align="center">
   <img width="291" height="288" src="https://imgur.com/4TIaeSe.png">
 </p>
 <p align="center">
-<b>Fig 2.</b> “Like” fees are split
+<b>Fig 2.</b> Upvote fees are split
 </p>
 
 **Ranking**
 
-Posts with more "likes" will rise to the top of the ranks in the forum and fall over time. Reputation (number of bonders) will determine the initial floor (or offset) that the content has. The more reputation, a user has, the more likely their content will be seen.
+Posts with more upvotes will rise to the top of the ranks in the forum and fall over time.
 
 **Moderation**
 
-After the creation of a forum, the forum creator becomes a Lead Moderator. Lead Moderators have privileges to add and remove other moderators. Additional moderators are allowed but they will require to pay a similar fee as the forum creator during creation. In the event that a moderator finds the content of a post against the policies of the forum, they may call for user to forfeit a single forum token. This forum token will be forcibly unstaked and the funds will fall under control of the district, not the moderators. Moderators are limited to a number of tokens that they may forfeit per hour. Moderators will find it in their best interest to keep users by the way of "likes". More user, more potential likes and more income; less users, less potential likes and less income.
+After the creation of a forum, the forum creator becomes a Lead Moderator. Lead Moderators have privileges to add and remove other moderators. Additional moderators are allowed but they will require to pay a similar fee as the forum creator during creation. In the event that a moderator finds the content of a post against the policies of the forum, they may call for user to forfeit a single forum token. This forum token will be forcibly unstaked and the funds will fall under control of the district, not the moderators. Moderators are limited to a number of tokens that they may forfeit per hour. Moderators will find it in their best interest to keep users by the way of upvoting. More user, more potential upvoting and more income; less users, less potential upvoting and less income.
 
 **Forum Takeovers**
 
 In the event that the moderators of “/cats” have acted in an unacceptable way. Users may decide to return their "/cats" tokens and buy "/cats2" tokens for the competing forum “/cats2” which has more acceptable moderators (note that users can always have deposits in multiple forums). Losing users possibly lowers the amount of quality content generated. Well-respected members that leave could bring a lot of users with them. If enough users switch, “/cats” may be bumped to “/cats2” and “/cats2” to “/cats”. This can be regarded as a forum takeover. A forum will need to have more users for over a week for the name change to occur.
-
-**Free Upvotes and Downvotes**
-
-By tracking the number of bonders that a curators has after posting, it is possible to have free upvotes and downvotes. If a curator loses bonders, it can appear that the last comment or post was deemed unfavorable. If the curator gains bonders, vice versa.
 
 **Frontpage Voting Topics**
 
@@ -76,14 +68,14 @@ By tracking the number of bonders that a curators has after posting, it is possi
 - Curation Token Parameters (Forum Token Parameters)
   - Initial Prices
   - Cost Curve
-- "Like" Fee
-  - Like Fee Amounts
-  - Like Fee Distributions (Content Creator, Moderators, District Funds)
+- Upvoting Fee
+  - Upvoting Fee Amounts
+  - Upvoting Fee Distributions (Content Creator, Moderators, District Funds)
 - Use of Frontpage Funds
  
 **Frontpage Token**
 
-The Frontpage Token (FPT) will be used as a voting token similar to the Dank Token in Meme Factory. It will have the added utility of also being used as the native currency for Forum Creation. Forum Creation deposits and fees will need to be paid through the FPT. Note that the Frontpage token is not intended to be used for forum user deposits or "like" pricing.
+The Frontpage Token (FPT) will be used as a voting token similar to the Dank Token in Meme Factory. It will have the added utility of also being used as the native currency for Forum Creation. Forum Creation deposits and fees will need to be paid through the FPT. Note that the Frontpage token is not intended to be used for forum user deposits or upvote pricing.
 
 FPT will be generated by DNT (District Network Token) holders staking their DNT into the Frontpage District.  For every week, that a DNT holder has their DNT staked into the district, they will earn 1/100 FPT per DNT. This is to reward long-term stakers. 
 
@@ -150,7 +142,7 @@ Todo: Forum Contract Interaction with Users
 **Wireframes**
 
 <p align="center">
-  <img width="480" height="270" src="https://imgur.com/E4xpSvJ.png">
+  <img width="480" height="270" src="https://imgur.com/oLZ9PRa.png">
 </p>
 <p align="center">
 <b>Fig 9. </b>Forum Page
@@ -161,7 +153,7 @@ More to come...
 **Possible attack vector** 
 Attackers generate a large amount of user accounts to disrupt a forum. 
 This can be alleviated by having liveliness tests. 
-- Liveliness tests would force deposited users to post or "like" so often or their token is unstaked and they are no longer deemed a user. This would force work on the attacker to maintain the attack. In general, liveliness tests seem to be useful to keep actual user numbers accurate.
+- Liveliness tests would force deposited users to post or "upvote" so often or their token is unstaked and they are no longer deemed a user. This would force work on the attacker to maintain the attack. In general, liveliness tests seem to be useful to keep actual user numbers accurate.
 
 ## **Summary**
 Frontpage uses a multi-layered hybrid curation market to create strong incentives for insightful content creation while giving tools to users and moderators to battle malicious actors.
@@ -170,14 +162,14 @@ Main differences between standard Curation Markets and Frontpage's Hybrid Curati
 - Names of forums are determined by the number of existing tokens
 - Non-refundable deposits by moderators to keep them in check.
 - Tokens can be forfeited by moderators. (A single one for a specified time.) This seems like a strong way to disincentivize and punish malicious users.
-- "Likes" are added to better incentivize content creators and moderators. This also allows reputation from taking over. i.e. ideas over people. 
+- "Upvoting" are added to better incentivize content creators and moderators. This also allows reputation from taking over. i.e. ideas over people. 
 - "Free" upvotes and downvotes can also be seen as new bonders bonding and old bonders leaving the contributor.
 
 **Possible considerations**
 - ~Moderator voting by forum token holders.~  A user attack by a rogue actor seems too possible. Nobody votes on moderators except moderators. Users can always group up to make a new forum or join one with more acceptable moderators.
-- ~Instead of district0x stakers determining bonders percentage from "likes" (upvotes), contributors do.~
+- ~Instead of district0x stakers determining bonders percentage from upvotes, contributors do.~
   To make reputation a standardized thing, this will not be implemented.
-- ~Another possible idea is to have districts in district0x have a version of the features mentioned above natively. District0x stakers would vote on moderators and forum participants will need to be the district0x stakers. A certain amount of a depositor's district0x stake will be burned by moderators when they deem the depositor has broken policies too many times. DNT could also be used for "likes".~ 
+- ~Another possible idea is to have districts in district0x have a version of the features mentioned above natively. District0x stakers would vote on moderators and forum participants will need to be the district0x stakers. A certain amount of a depositor's district0x stake will be burned by moderators when they deem the depositor has broken policies too many times. DNT could also be used for "upvotes".~ 
 
 **Tasks to do**
 
